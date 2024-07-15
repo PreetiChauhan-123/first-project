@@ -1,0 +1,461 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+.nav{
+    height: 11vh;
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav .logo{
+    height: 65px;
+    width: 13%;
+    /* border: 1px solid; */
+}
+.nav .logo img{
+    height: 100%;
+    width: 100%;
+}
+.nav .navlinks{
+    height: 100%;
+    width: 80%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+
+}
+.login{
+height: 88vh;
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-position: center; */
+/* background-size:contain; */
+background-image: url(./Assets/createuser.webp);
+}
+form{
+    height: 450px;
+    width: 390px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    padding: 35px 45px;
+    background-color:rgba(255, 255, 255, 0.781);
+    /* background: transparent; */
+} 
+h1{
+   height: 60px;
+   text-align: center;
+   font-size: 30px;
+   color: black;
+}
+.name{
+   height: 40px;
+   width: 400px;
+   /* border: solid; */
+   display: flex;
+   align-items: center;
+   /* justify-content: space-between; */
+   gap: 30px;
+}
+input{
+   height: 30px;
+   width: 230px;
+   border: none;
+   border-bottom: 1px solid;
+   background-color: rgba(255, 255, 255, 0.311);
+
+}
+.b1{
+    height: 45px;
+    width: 150px;
+    padding: 3%;
+    margin: 30px 60px;
+    border-radius: 20px;
+    border: none;
+    font-size: large;
+    font-weight: 15px;
+    background-color: rgba(37, 37, 202, 0.808);
+    color: rgba(255, 255, 255, 0.87);
+}
+p{
+    height: 50px;
+    width: 400px;
+    border: none;
+    padding: 0px 30px  0px 30px;
+    /* font-size: 20px; */
+    font-weight: 15px;
+    /* background-color: white; */
+    /* margin-bottom: 300px; */
+}
+.signup{
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: cornflowerblue; */
+    background-image: url(./Assets/createuser.webp);
+
+}
+.b2{
+    height: 45px;
+    width: 150px;
+    padding: 3%;
+    margin: 30px 60px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: 15px;
+    border: none;
+    background-color: blue;
+}
+.contact{
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(74, 121, 122, 0.756);
+    background-image: url(./Assets/createuser.webp);
+
+}
+.lower{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+textarea{
+    background-color: rgba(192, 192, 192, 0.961);
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.h1{
+    height:35px ;
+}
+.b3{
+    height: 37px;
+    width: 90px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 15px;
+    background-color: rgba(32, 173, 32, 0.753);
+    border: none;
+}
+.home{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(./Assets/home1_page.jpg);
+    background-size: cover;
+    animation: gallery 20s linear infinite;
+}
+@keyframes gallery {
+    0% {
+        background-image: url(./Assets/home1_page.jpg);
+
+    }
+    20% {
+        background-image: url(./Assets/home2_page.jpg);
+    }
+    40% {
+        background-image: url(./Assets/home3_page.avif);
+    }
+    60% {
+        background-image: url(./Assets/home4_page.jpg);
+    }
+    80% {
+        background-image: url(./Assets/home5_page.jpg);
+    }
+    100% {
+        background-image: url(./Assets/home1_page.jpg);
+    }
+    
+}
+.home .sidebar{
+    height: 95%;
+    width: 20%;
+    border: 1px solid rgba(255, 255, 255, 0.409);
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color:rgba(23, 23, 40, 0.324);
+    
+}
+.sidebar .sidelogo{
+    height: 30%;
+    width: 90%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    /* background-color: rgba(0, 0, 255, 0.902); */
+}
+.sidebar .sidelogo .logo{
+    height: 150px;
+    width: 150px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+}
+.sidebar .sidelogo .logo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    -webkit-filter: blur(0.5px); /* Safari 6.0 - 9.0 */
+    filter: blur(0.5px);
+}
+.sidebar .sidelogo .logo img:hover{
+    transform: rotateY(180deg);
+}
+.sidebar .sidelower{
+    height: 65%;
+    width: 90%;
+    /* border: 1px solid; */
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-top: 25px;
+    /* background-color:white; */
+}
+.sidebar .sidelower a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar .sidelower .one{
+    height: 40px;
+    width: 130px;
+    margin: 25px;
+   
+    /* border: 1px solid; */
+}
+.sidelower  h2:hover{
+    color: blue;
+}
+.home .homechild{
+    height: 100%;
+    width: 75%;
+    /* border: 1px solid; */
+}
+.createuser{
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 10px; */
+}
+.createuser form{
+    height: 550px;
+    width: 650px;
+    margin-left: 200px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.961);
+}
+.createuser  p{
+    height: 20px;
+    /* text-align: center; */
+    font-size: 25px;
+    /* border: solid; */
+    margin-left: 350px;
+    font-weight: 80px;
+    color: white;
+}
+/* .createuser form:hover{
+    background-color: rgba(0, 0, 0, 0.142); 
+} */
+.createuser form .one{
+    height: 35px;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+     /* flex-direction: row; */
+     flex-wrap: wrap;
+     gap: 2px;
+    
+}
+form .two .one select{
+    height: 18px;
+    width: 50%;
+    margin-top: 1px;
+    margin-right: 20px;
+    /* border: none; */
+    text-decoration: none;
+    border: none;
+}
+.createuser form label{
+         /* height: 100px; */
+         width: 100%;
+         font-weight: 20px;
+         color: black;
+         /* border: solid; */
+}
+.createuser form input{
+    height: 20px;
+    width: 100%;
+    padding: 5px 10px;
+    color:black;
+    border: none;
+    background-color: white;
+    /* border-bottom: 1px solid; */
+}
+.createuser form button{
+    height: 30px;
+    width: 450px;
+    background-color: rgba(15, 15, 163, 0.619);
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    margin-left: 50px;
+    padding: 7px;
+    
+    
+}
+.createuser form button a{
+    text-decoration: none;
+}
+form .two{
+    width: 100%;
+     gap: 30px;
+    /* border: 1px solid; */
+    display: flex;
+}
+.alluser{
+    height: 95%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 5px;
+    /* padding-left: 20px; */
+    margin-top: 15px;
+    overflow-y: auto;
+}
+.alluser .userone{
+    height: 10%;
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+}
+.alluser .userone .aone{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    /* justify-content: center; */
+}
+.alluser .userone .aone .aone1{
+    height: 65%;
+    width: 20%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.alluser .userone .bone{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding-right: 15px;
+}
+.alluser .userone .bone select{
+    height: 65%;
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    padding: 5px;
+    padding: 5px;
+
+}
+.alluser .userone .bone .bone1{
+    height: 65%;
+    width: 40%;
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+
+
+}
+.alluser .userone .bone .bone1 input{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+
+}
+.alluser .userone .bone .bone2{
+    height: 65%;
+    width: 20%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: blue ;
+    cursor: pointer;
+
+}
+.alluser .table{
+    height: 90%;
+    width: 100%;
+    /* border: 1px solid; */
+}
+th{
+    height: 60px;
+    width: 100px;
+    /* padding: 10px; */
+    background-color: rgba(0, 0, 255, 0.578);
+    cursor: pointer;
+    
+}
+td{
+    text-align: center;
+    height: 28px;
+    background-color: rgba(0, 128, 0, 0.352);
+    border: 1px solid white;
+}
+td .update{
+    height: 100%;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.884);
+    cursor: pointer;
+}
+td .delete{
+    height: 100%;
+    width: 90%;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
