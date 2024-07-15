@@ -15,7 +15,7 @@ git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/PreetiChauhan-123/first-project.git
-git push -u origin main
+git push -u origin main -- ye wali main hai push k liye  ab dekh mne is line me change kiya hai mtlb kuch likha hai to iske aage blue blue aa gya mtlb ye wali line abhi teri repo m push nahi hui ab dobara push krte hai
 jo bhi repository humne bnai hai ye command usme code push krne k liye use hogi sirf phli baar 
 jb tune ek baar push kr di ye fir tune project me change kiye uske baad command change ho jayegi 
 
